@@ -20,7 +20,7 @@ export default function SavedResumesPage() {
   ]
 
   return (
-    <div className="container mx-auto px-4 py-8 md:px-8 max-w-screen-xl min-h-[calc(100vh-4rem)]">
+    <div className="container mx-auto px-4 py-8 md:px-8 max-w-7xl min-h-[calc(100vh-4rem)]">
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4 border-b border-border/40 pb-6">
         <div>
           <h1 className="text-3xl font-bold tracking-tight text-foreground">Saved Resumes</h1>

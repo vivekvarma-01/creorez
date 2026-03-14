@@ -25,7 +25,7 @@ export default function TemplatesPage() {
   ]
 
   return (
-    <div className="container mx-auto px-4 py-8 md:px-8 max-w-screen-xl min-h-[calc(100vh-4rem)]">
+    <div className="container mx-auto px-4 py-8 md:px-8 max-w-7xl min-h-[calc(100vh-4rem)]">
       <div className="mb-8 border-b border-border/40 pb-6">
         <h1 className="text-3xl font-bold tracking-tight text-foreground">Choose a Template</h1>
         <p className="text-muted-foreground mt-2">Select a LaTeX design as the foundation for your new resume.</p>
