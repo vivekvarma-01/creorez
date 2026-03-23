@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { GoogleGenAI, createUserContent } from "@google/genai";
-import { dynamicResumeTemplate, type ResumeData } from "../../../templates/dynamicResumeTemplate";
+import { ResumeData, dynamicResumeTemplate } from "@/templates/dynamicResumeTemplate";
+
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -71,7 +72,7 @@ Return the JSON inside a fenced block like:
 
     const content = createUserContent(prompt);
     const response = await ai.models.generateContent({
-      model: "gemini-2.0-flash",
+      model: "gemini-2.5-flash",
       contents: [content],
     });
 

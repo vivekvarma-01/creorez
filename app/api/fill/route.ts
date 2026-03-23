@@ -52,7 +52,6 @@ export async function GET() {
     hasNewUpdate = false;
     return NextResponse.json(response);
   } catch (err: unknown) {
-    // ✅ Type-safe error handling
     const errorMessage =
       err instanceof Error ? err.message : "Unknown server error";
     console.error("GET /api/fill:", errorMessage);

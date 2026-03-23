@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-
-
+import { GoogleGenAI, createPartFromUri, createUserContent } from "@google/genai";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
